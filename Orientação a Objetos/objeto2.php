@@ -24,7 +24,7 @@ class Produto
     {
         if (is_numeric($percentual) and $percentual >= 0) {
             $this->preco *= (1 + ($percentual / 100));
-        }
+        }  
     }
 }
 $p1 = new Produto;
